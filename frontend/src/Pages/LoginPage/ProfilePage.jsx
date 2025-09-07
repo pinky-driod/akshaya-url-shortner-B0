@@ -2,7 +2,7 @@ import { Avatar } from '@mantine/core';
 import React, { useEffect, useState } from 'react'
 import { Stack} from '@mantine/core';
 import { Text } from '@mantine/core';
-import Service from '../utils/http';
+import Service from '../../utils/http.js'
 const service = new Service()
 
 
